@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="p.css" />
+    <link rel="stylesheet" href="k.js" />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="pye.js" />
+
+    <div class="filters">
+      <button class="filters__btn">
+        <span class="show">Show</span>
+        <span class="hide">Hide</span>&nbsp;Filters<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="black">
+          <path d="M3 8L21 8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M3 17H21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M17 5L17 11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M8 14L8 20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <button class="filters__btn filters__btn--sort">
+        Sort By<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="black">
+          <path d="M6 9.5L12 15.5L18 9.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+
+    <div class="sidebar">
+      <h2 class="sidebar__title">Projects(354)</h2>
+
+      <div class="sidebar__category">
+        <div class="sidebar__heading">
+          <h4>Funding (3)</h4>
+          <div class="sidebar__options">
+            <label class="check">
+              <input type="checkbox" class="check__input" />
+              <span class="check__checkbox">
+                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 6.5L9 17.5L4 12.5" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+              <p class="check__text">Group Funding</p>
+            </label>
+            <label class="check">
+              <input type="checkbox" class="check__input" />
+              <span class="check__checkbox">
+                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 6.5L9 17.5L4 12.5" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+              <p class="check__text">Mass Funding</p>
+            </label>
+            <label class="check">
+              <input type="checkbox" class="check__input" />
+              <span class="check__checkbox">
+                <svg width="24" height="25" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 6.5L9 17.5L4 12.5" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+              <p class="check__text">Seed Funding</p>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar__category">
+        <div class="sidebar__heading">
+          <h4>Region (kms)</h4>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <input type="range" min="0" max="100" value="0" class="range-input" id="range4" step="25" />
+    <div class="sliderticks">
+      <span>0</span>
+      <span>25</span>
+      <span>50</span>
+      <span>75</span>
+      <span>100</span>
+    </div>
+    <br />
+    <h4>Price Range (Minimum $500)</h4>
+    <div class="slidecontainer">
+      <input type="range" min="500" max="100000" value="1000" class="slider" id="myRange" />
+      <p>
+        Price :$<span id="demo"></span>
+      </p>
+    </div>
+
+    <script>
+      var slider = document.getElementById('myRange')
+      var output = document.getElementById('demo')
+      output.innerHTML = slider.value
+      
+      slider.oninput = function () {
+        output.innerHTML = this.value
+      }
+    </script>
+
+    <script>
+      function filterProjects() {
+        // Get input element and filter value
+        var input = document.getElementById('keywordInput')
+        var filter = input.value.toUpperCase()
+      
+        // Get project list
+        var projects = document.getElementById('projectList')
+        var items = projects.getElementsByTagName('li')
+      
+        // Loop through all list items, hide those that don't match the filter
+        for (var i = 0; i < items.length; i++) {
+          var text = items[i].textContent || items[i].innerText
+          if (text.toUpperCase().indexOf(filter) > -1) {
+            items[i].style.display = ''
+          } else {
+            items[i].style.display = 'none'
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+</head>
+
+<body>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <header>
+        <h1>EcoRevolt</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url "home" %}">Home</a></li>
+                <li><a href="{% url 'projects' %}">Projects</a></li>
+                <li><a href="{% url 'partner' %}">Collaborative</a></li>
+                <li><a href="{% url 'login' %}">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, tenetur.
+            </h1>
+        </div>
+        <div>
+            <h1>Social</h1>
+            <h1>Projects</h1>
+        </div>
+        <div>
+            <input type="search" name="" placeholder="Search" id=""> <br>
+            <div>
+                <h3>Trending</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>java</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <section class="about">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1615147342761-9238e15d8b96?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80"
+                class="card__image" alt="brown couch" />
+            <div class="card__content">
+                <time datetime="2021-03-30" class="card__date">30 März 2021</time>
+                <span class="card__title">Dui Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                    itaque sequi debitis assumenda laborum, provident suscipit. Odit soluta impedit commodi mollitia,
+                    optio voluptatum voluptates repudiandae, alias nam culpa minima hic accusantium esse doloremque
+                    aliquam neque laboriosam molestias reprehenderit et ullam laborum corporis corrupti? Est assumenda
+                    saepe cumque minus exercitationem consectetur quis quisquam, inventore quas! Qui nihil beatae
+                    ratione magnam ipsa ullam nobis illum repellendus optio! Laudantium vitae repellat suscipit alias
+                    rerum sint enim reiciendis facilis officia nostrum. Commodi consequuntur minima, adipisci inventore
+                    enim eum quidem excepturi qui nostrum nam quo impedit sint perspiciatis voluptatum? Deleniti amet
+                    dignissimos consequuntur expedita sapiente.s autem vel eum iriure dolor in hend in vulputate<span>
+            </div>
+        </div>
+    </section>
+    <h1 class="topic">Goals</h1>
+    <section class="goals">
+        <div class="goal">
+            <img src="https://images.unsplash.com/photo-1615147342761-9238e15d8b96?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80"
+                class="card__image" alt="brown couch" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique placeat repellat quaerat a quis
+                cumque ipsa sit rerum enim totam.
+            </p>
+        </div>
+        <div class="goal">
+            <img src="https://images.unsplash.com/photo-1615147342761-9238e15d8b96?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80"
+                class="card__image" alt="brown couch" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique placeat repellat quaerat a quis
+                cumque ipsa sit rerum enim totam.
+            </p>
+        </div>
+        <div class="goal">
+            <img src="https://images.unsplash.com/photo-1615147342761-9238e15d8b96?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80"
+                class="card__image" alt="brown couch" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique placeat repellat quaerat a quis
+                cumque ipsa sit rerum enim totam.
+            </p>
+        </div>
+    </section>
+    <h1 class="topic">Reviews</h1>
+    <section class="reviews">
+        <div class="review">
+            <img src="https://images.unsplash.com/photo-1615147342761-9238e15d8b96?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80"
+                class="card__image" alt="brown couch" />
+            <div>
+                <p>
+                <h3>Name</h3>star</p>
+                <p>review goes here : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, voluptas.
+                </p>
+            </div>
+        </div>
+        <div class="review">
+            <img src="https://images.unsplash.com/photo-1615147342761-9238e15d8b96?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80"
+                class="card__image" alt="brown couch" />
+            <div>
+                <p>
+                <h3>Name</h3>star</p>
+                <p>review goes here : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, voluptas.
+                </p>
+            </div>
+        </div>
+        <div class="review">
+            <img src="https://images.unsplash.com/photo-1615147342761-9238e15d8b96?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80"
+                class="card__image" alt="brown couch" />
+            <div>
+                <p>
+                <h3>Name</h3>star</p>
+                <p>review goes here : Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, voluptas.
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h3>Contact Details</h3>
+            <p>
+                Contact No:111-222-333
+                <br>
+                Email : 12345@gmail.com
+                <br>
+                Address : No 123 gandhi nagar New york China
+            </p>
+        </div>
+        <div>
+            <h3>Follow us on</h3>
+            <ul>
+                <li>In</li>
+                <li>Fb</li>
+                <li>Li</li>
+                <li>X</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

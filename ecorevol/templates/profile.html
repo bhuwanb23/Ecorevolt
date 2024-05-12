@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <title>Document</title>
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>EcoRevolt</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="{% url 'home' %}">Home</a>
+          </li>
+          <li>
+            <a href="{% url 'projects' %}">Projects</a>
+          </li>
+          <li>
+            <a href="{% url 'partner' %}">Collaborative</a>
+          </li>
+          <li>
+            <a href="{% url 'login' %}">Login</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div style="width: 1280px; height: 1059px; position: relative; background: white">
+      <div style="width: 810px; height: 788px; left: 303px; top: -481px; position: absolute; background: rgba(13, 217, 159, 0.20); border-radius: 9999px"></div>
+      <div style="width: 810px; height: 788px; left: -507px; top: 22px; position: absolute; background: rgba(99, 228, 242, 0.20); border-radius: 9999px"></div>
+      <div style="width: 810px; height: 788px; left: 510px; top: 606px; position: absolute; background: rgba(99, 228, 242, 0.20); border-radius: 9999px"></div>
+      <div style="width: 1094px; height: 914px; left: -23px; top: 59px; position: absolute; background: rgba(255, 255, 255, 0.70)"></div>
+      <div style="left: 646px; top: 861px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.80px; word-wrap: break-word">Zoho , Infosys</div>
+      <div style="left: 549px; top: 801px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.20px; word-wrap: break-word">B.Tech Computer Science and Business System</div>
+      <div style="left: 619px; top: 565px; position: absolute; color: black; font-size: 20px; font-family: Fenix; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">9876543210</div>
+      <div style="left: 596px; top: 681px; position: absolute; color: black; font-size: 20px; font-family: Fenix; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">03</div>
+      <div style="left: 510px; top: 501px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">avinash6754@gmail.com</div>
+      <div style="left: 490px; top: 445px; position: absolute; color: black; font-size: 20px; font-family: Fenix; font-weight: 400; letter-spacing: 1.20px; word-wrap: break-word">19</div>
+      <div style="left: 564px; top: 381px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 1.20px; word-wrap: break-word"></div>
+      <div style="left: 575px; top: 321px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">avinash003</div>
+      <div style="left: 565px; top: 259px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">A</div>
+      <div style="left: 421px; top: 921px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">Interested In :</div>
+      <div style="left: 581px; top: 921px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">Machine Learning , Artificial Intelligence</div>
+      <div style="left: 421px; top: 861px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">Professional History :</div>
+      <div style="left: 421px; top: 801px; position: absolute; color: #16288C; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">Education :</div>
+      <div style="left: 421px; top: 741px; position: absolute; color: #16288C; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">Address :</div>
+      <div style="left: 422px; top: 681px; position: absolute; color: #16288C; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">No of Projects :</div>
+      <div style="left: 422px; top: 621px; position: absolute; color: #16288C; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">Company Name (Optional) :</div>
+      <div style="left: 422px; top: 199px; position: absolute; color: #16288C; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">First Name :</div>
+      <div style="width: 192px; height: 30px; left: 421px; top: 561px; position: absolute; color: #16288C; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">Contact Number :</div>
+      <div style="left: 564px; top: 199px; position: absolute; color: black; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">Avinash</div>
+      <div style="left: 422px; top: 501px; position: absolute; color: #16288C; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">Email :</div>
+      <div style="left: 422px; top: 441px; position: absolute; color: #16288C; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">Age :</div>
+      <div style="left: 422px; top: 381px; position: absolute; color: #16288C; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">Password :</div>
+      <div style="left: 422px; top: 321px; position: absolute; color: #16288C; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">User_name :</div>
+      <div style="left: 422px; top: 259px; position: absolute; color: #16288C; font-size: 20px; font-family: Poppins; font-weight: 400; letter-spacing: 0.60px; word-wrap: break-word">Last Name :</div>
+      <img style="width: 230px; height: 220px; left: 142px; top: 199px; position: absolute; border-radius: 9999px" src="https://via.placeholder.com/230x220" />
+      <img style="width: 22px; height: 22px; left: 697px; top: 385px; position: absolute" src="https://via.placeholder.com/22x22" />
+      <img style="width: 35px; height: 35px; left: 1010px; top: 76px; position: absolute" src="https://via.placeholder.com/35x35" />
+    </div>
+  </body>
+</html>
