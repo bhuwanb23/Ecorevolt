@@ -30,6 +30,27 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{% static 'style.css' %}" rel="stylesheet" />
+    <style>
+      header{
+        display: flex;
+        color: white;    justify-content: space-between;
+        padding: 20px;
+        align-items: center;
+      }
+      header h1{
+        color: white;
+        font-size: 20px;
+      }
+
+      header nav li a:hover{
+        color:white;
+      }
+      .wrapper{
+        top: 1000px;
+        margin: 30px;
+        padding: 50px;
+      }
+    </style>
   </head>
 
   <body>
@@ -417,7 +438,6 @@
         </div>
         <!-- Footer End -->
       </div>
-    </div>
 
     <!-- Back to Top -->
     <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>

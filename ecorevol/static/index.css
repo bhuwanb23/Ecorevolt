@@ -4,7 +4,7 @@ body {
     overflow-x: hidden;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-family: sans-serif;
-    background-color: #f4edcc;
+    background-color: rgba(0, 255, 0, 0.664);
 }
 
 header {
@@ -13,7 +13,10 @@ header {
     padding: 5px 30px;
     color: white;
     z-index: 3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
+    position: fixed;
+    top: 0%;
     justify-content: space-between;
     align-items: center;
     background-color: #142740;
@@ -44,6 +47,7 @@ main {
     margin: 80px 20px;
     padding: 20px;
     flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,13 +128,13 @@ main div:last-of-type div h3 {
 
 .about .card {
     backdrop-filter: blur(10px);
+    border: 2px solid transparent;
     box-shadow: 0px 0px 10px black;
     display: flex;
     border: 1px solid;
     padding: 20px;
     width: 700px;
-    letter-spacing: 1px;
-    line-height: 30px;
+    font-size: medium;
     border-radius: 5px;
     justify-content: center;
 }
@@ -140,34 +144,58 @@ main div:last-of-type div h3 {
     margin: 20px;
 }
 
+@keyframes moveReviewsright {
+    from {
+        transform: translateX(-30%);
+    }
+
+    to {
+        transform: translateX(30%);
+    }
+}
+
+@keyframes moveReviewsleft {
+    from {
+        transform: translateX(30%);
+    }
+
+    to {
+        transform: translateX(-30%);
+    }
+}
+
 .reviews {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-    padding: 20px;
-    flex-wrap: wrap;
+    animation: moveReviewsright 60s linear infinite;
+}
+
+.reviews:last-of-type {
+    animation: moveReviewsleft 60s linear infinite;
 }
 
 .review {
     width: 300px;
     box-shadow: 0px 0px 10px black;
     margin: 20px;
-    padding: 20px;
+    padding: 10px 20px;
     display: flex;
+    border-radius: 5px;
     align-items: center;
     justify-content: center;
+    height: 80px;
 }
 
 .review img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 60px;
     border-radius: 50%;
 }
 
 .review div {
     padding: 0px 10px;
-    width: 300px;
+    width: 200px;
     text-align: left;
 }
 
@@ -178,14 +206,15 @@ main div:last-of-type div h3 {
 
 .review div p {
     display: flex;
-    font-size: 12px;
+    justify-content: left;
+    align-items: center;
+    font-size: 10px;
     margin: 0px;
     font-weight: 100;
 }
 
 .goals {
     display: flex;
-    margin: 20px;
     align-items: center;
     padding: 20px;
     justify-content: center;
@@ -194,37 +223,50 @@ main div:last-of-type div h3 {
 
 .goal {
     width: 200px;
-    border: 1px solid;
-    margin: 20px;
+    margin: 0px 20px;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    padding: 30px 20px;
     text-align: justify;
+    height: 200px;
+    padding: 20px 30px;
 }
 
-.goal:hover {
-    box-shadow: 0px 0px 10px black;
-    backdrop-filter: blur(5px);
-    border-radius: 0px;
+.goal:hover{
+    box-shadow: inset 0 0 15px rgb(249 245 245 / 50%), 0 0 18px 3px rgb(10 10 10 / 30%);
+    backdrop-filter: blur(20px);
+}
+
+.goal:hover img {
+    display: none;
+}
+
+.goal:hover p{
+    display: block;
 }
 
 .goal img {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
     display: flex;
+    object-fit: cover;
     justify-content: center;
     flex-direction: column;
+}
+
+.goal p {
+    display: none;
+    color: white;
 }
 
 .topic {
     text-align: center;
     font-size: xx-large;
-    margin: 20px;
-    padding: 20px;
     letter-spacing: 2px;
     font-family: sans-serif;
 }
@@ -233,16 +275,17 @@ main div:last-of-type div h3 {
     border-radius: 50%;
     height: 300px;
     width: 300px;
-    position: absolute;
-    background-color: #63e4f254;
+    position: fixed;
+    background-color: green;
     z-index: -1;
+    filter: blur(5px);
 }
 
 .circle:first-of-type {
     right: -100px;
     width: 400px;
     height: 400px;
-    bottom: -50px;
+    bottom: 0px;
 }
 
 .circle:last-of-type {
@@ -254,57 +297,34 @@ main div:last-of-type div h3 {
 
 .circle:nth-child(2) {
     left: -100px;
+    top: -10%;
 }
 
 .circle:nth-child(3) {
     background-color: #294c7a;
     width: 300px;
     height: 300px;
-    bottom: -20%;
-    left: 40px;
+    bottom: 20%;
+    left: 30%;
 }
 
-.circle:nth-child(4) {
-    background-color: #294c7a;
-    width: 400px;
-    height: 400px;
-    top: 200%;
-    right: -10%;
+.slide {
+    margin: 20px;
+    padding: 20px;
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.circle:nth-child(5) {
-    width: 200px;
-    height: 200px;
-    top: 200%;
-    right: 10%;
-}
-
-.circle:nth-child(6) {
-    width: 500px;
-    height: 500px;
-    top: 250%;
-    left: 20%;
-}
-
-.circle:nth-child(6) {
-    width: 200px;
-    height: 200px;
-    top: 180%;
-    background-color: #294c7a;
-    left: 15%;
-}
-
-.circle:nth-child(7) {
-    width: 300px;
-    height: 300px;
-    top: 180%;
-    left: 0%;
+.slide:nth-child(2) {
+    flex-direction: column;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: center ;
+    align-items: center;
     padding: 0px 20px;
     font-size: smaller;
     backdrop-filter: blur(10px);
