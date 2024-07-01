@@ -49,6 +49,7 @@ main {
     flex-direction: column;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
+    color: white;
     justify-content: center;
     align-items: center;
 }
@@ -72,6 +73,7 @@ main div:nth-child(2) h1 {
 main div:last-of-type {
     display: flex;
     flex-direction: column;
+    color: black;
 }
 
 main div:last-of-type div {
@@ -102,11 +104,15 @@ main div:last-of-type div ul li {
     border: 1px solid;
     margin: 5px;
     font-size: 12px;
+    transition: 0.1s ease-in-out;
     border-radius: 20px;
 }
 
 main div:last-of-type div ul li:hover {
     box-shadow: 0px 0px 5px black;
+    color: black;
+    background-color: white;
+    transform: scale(1.05);
 }
 
 main div:last-of-type div h3 {
@@ -128,8 +134,8 @@ main div:last-of-type div h3 {
 
 .about .card {
     backdrop-filter: blur(10px);
-    border: 2px solid transparent;
-    box-shadow: 0px 0px 10px black;
+    border: 2px solid white;
+    box-shadow:  inset 0 0 100px 100px rgba(249, 245, 245, 0.623), 0 0 18px 3px rgb(0 0 0 / 30%);;
     display: flex;
     border: 1px solid;
     padding: 20px;
@@ -177,14 +183,14 @@ main div:last-of-type div h3 {
 
 .review {
     width: 300px;
-    box-shadow: 0px 0px 10px black;
     margin: 20px;
     padding: 10px 20px;
     display: flex;
-    border-radius: 5px;
+    border-radius: 50px;
     align-items: center;
     justify-content: center;
     height: 80px;
+    box-shadow: inset 0 0 100px 10px rgb(249 245 245), 0 0 18px 3px rgb(0 0 0 / 30%);;
 }
 
 .review img {
@@ -231,20 +237,21 @@ main div:last-of-type div h3 {
     justify-content: center;
     cursor: pointer;
     text-align: justify;
-    height: 200px;
+    transition: 0.3s ease-in-out;
     padding: 20px 30px;
+    height: 200px;
 }
 
-.goal:hover{
-    box-shadow: inset 0 0 15px rgb(249 245 245 / 50%), 0 0 18px 3px rgb(10 10 10 / 30%);
+.goal:hover {
     backdrop-filter: blur(20px);
+    box-shadow: inset 0 0 15px rgb(249 245 245 / 50%), 0 0 18px 3px rgb(10 10 10 / 30%);
 }
 
 .goal:hover img {
     display: none;
 }
 
-.goal:hover p{
+.goal:hover p {
     display: block;
 }
 
@@ -253,6 +260,7 @@ main div:last-of-type div h3 {
     height: 200px;
     width: 200px;
     border-radius: 10%;
+    transition: 2s ease-in-out;
     display: flex;
     object-fit: cover;
     justify-content: center;
@@ -260,6 +268,7 @@ main div:last-of-type div h3 {
 }
 
 .goal p {
+    transition: 0.3s ease-in-out;
     display: none;
     color: white;
 }
