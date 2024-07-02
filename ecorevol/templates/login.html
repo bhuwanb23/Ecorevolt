@@ -1,77 +1,92 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="{% static 'index.css' %}">
+    <link rel="stylesheet" href="{% static 'login.css' %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      body {
-        overflow-x: hidden;
-        background: #3f3cd9;
-      }
-    </style>
-  </head>
-  <body>
+</head>
+
+<body>
+    <div class="lcircle"></div>
+    <div class="lcircle"></div>
+
     <header>
-      <h1>EcoRevolt</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="{% url 'home' %}">Home</a>
-          </li>
-          <li>
-            <a href="{% url 'projects' %}">Projects</a>
-          </li>
-          <li>
-            <a href="{% url 'partner' %}">Collaborative</a>
-          </li>
-          <li>
-            <a href="{% url 'login' %}">Login</a>
-          </li>
-        </ul>
-      </nav>
+        <h1>EcoRevolt</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home'%}">Home</a></li>
+                <li><a href="{% url 'projects' %}">Projects</a></li>
+                <li><a href="{% url 'partner' %}">Collaborative</a></li>
+                <li><a href="{% url 'login' %}">Login</a></li>
+            </ul>
+        </nav>
     </header>
-    <div style="width: 1280px; height: 832px; position: relative; z-index: -1;">
-      <div style="    width: 425px;box-shadow: 0px 0px 10px black;      height: 501px;left: 427px;top: 134px;      position: absolute;background: white;">
-        <div style="width: 425px; height: 501px; left: 0px; top: 0px; position: absolute; background: rgba(17, 17, 17, 0.10)"></div>
-        <div style="width: 222px; height: 445px; left: 102px; top: 49px; position: absolute">
-          <div style="width: 155px; height: 43px; left: 33px; top: 0px; position: absolute">
-            <div style="left: 0px; top: 0px; position: absolute; color: #3F3CD9; font-size: 36px; font-family: Kotta One; font-weight: 400; word-wrap: break-word">Ecov</div>
-            <div style="left: 73px; top: 0px; position: absolute; color: #0DD99F; font-size: 36px; font-family: Kotta One; font-weight: 400; word-wrap: break-word">ation</div>
-          </div>
-          <div style="left: 31px; top: 43px; position: absolute; color: black; font-size: 18px; font-family: Kokoro; font-weight: 400; letter-spacing: 0.36px; word-wrap: break-word">Create an account</div>
-          <img style="width: 25px; height: 25px; left: 9px; top: 137px; position: absolute" src="3.png" />
-          <img style="width: 25px; height: 25px; left: 98px; top: 137px; position: absolute" src="2.png" />
-          <img style="width: 25px; height: 25px; left: 177px; top: 137px; position: absolute" src="1.png" />
-          <div style="width: 199px; height: 19px; left: 11px; top: 185px; position: absolute">
-            <div style="width: 89px; height: 0px; left: 0px; top: 16px; position: absolute; border: 0.50px #111111 solid"></div>
-            <div style="width: 85px; height: 0px; left: 114px; top: 16px; position: absolute; border: 0.50px #111111 solid"></div>
-            <div style="left: 93px; top: 0px; position: absolute; color: black; font-size: 16px; font-family: Inria Serif; font-weight: 400; letter-spacing: 0.48px; word-wrap: break-word">or</div>
-          </div>
-          <div style="width: 222px; height: 20.51px; left: 0px; top: 255px; position: absolute">
-            <div style="left: 0.01px; top: 0px; position: absolute; color: rgba(0, 0, 0, 0.30); font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word">Email</div>
-            <div style="width: 222px; height: 0px; left: 0px; top: 20.51px; position: absolute; border: 0.30px black solid"></div>
-          </div>
-          <div style="width: 120px; height: 40px; left: 51px; top: 358px; position: absolute">
-            <div style="width: 120px; height: 40px; left: 0px; top: 0px; position: absolute; background: linear-gradient(270deg, rgba(13, 217, 159, 0.70) 0%); border-radius: 20px"></div>
-            <div style="left: 25px; top: 10px; position: absolute; text-align: center; color: white; font-size: 16px; font-family: Koh Santepheap; font-weight: 400; letter-spacing: 0.96px; word-wrap: break-word">Sign Up</div>
-          </div>
-          <div style="width: 213px; height: 20px; left: 4px; top: 425px; position: absolute">
-            <div style="left: 0px; top: 0px; position: absolute; color: black; font-size: 13px; font-family: Kokoro; font-weight: 400; letter-spacing: 0.52px; word-wrap: break-word">Already have an account?</div>
-            <div style="left: 172px; top: 2px; position: absolute; color: #4460A0; font-size: 13px; font-family: Inter; font-weight: 700; letter-spacing: 0.52px; word-wrap: break-word">Log in</div>
-          </div>
-          <div style="width: 222px; height: 22px; left: 0px; top: 309px; position: absolute">
-            <div style="width: 222px; height: 0px; left: 0px; top: 22px; position: absolute; border: 0.30px black solid"></div>
-            <div style="left: 0px; top: 0px; position: absolute; color: rgba(17, 17, 17, 0.30); font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word">Password</div>
-            <img style="width: 15px; height: 15px; left: 203px; top: 2px; position: absolute" src="4.png" />
-          </div>
+    <section>
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form action="#">
+                    <h1>Create Account</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your email for registration</span>
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <button>Sign Up</button>
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="#">
+                    <h1>Sign in</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your account</span>
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <a href="#">Forgot your password?</a>
+                    <button>Sign In</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Welcome Back!</h1>
+                        <p>To keep connected with us please login with your personal info</p>
+                        <button class="ghost" id="signIn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Hello, Friend!</h1>
+                        <p>Enter your personal details and start journey with us</p>
+                        <button class="ghost" id="signUp">Sign Up</button>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div style="width: 810px; height: 788px; left: 812px; top: 438px; position: absolute; background: rgba(99, 228, 242, 0.20); border-radius: 9999px"></div>
-      <div style="width: 810px; height: 788px; left: 812px; top: -472px; position: absolute; background: rgba(13, 217, 159, 0.20); border-radius: 9999px"></div>
-      <div style="width: 810px; height: 788px; left: -507px; top: 22px; position: absolute; background: rgba(99, 228, 242, 0.20); border-radius: 9999px"></div>
-    </div>
-  </body>
+    </section>
+    <script>
+        const signUpButton = document.getElementById('signUp');
+        const signInButton = document.getElementById('signIn');
+        const container = document.getElementById('container');
+
+        signUpButton.addEventListener('click', () => {
+            container.classList.add("right-panel-active");
+        });
+
+        signInButton.addEventListener('click', () => {
+            container.classList.remove("right-panel-active");
+        });
+    </script>
+
+</body>
+
 </html>

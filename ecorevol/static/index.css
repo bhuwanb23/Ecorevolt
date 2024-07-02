@@ -134,14 +134,13 @@ main div:last-of-type div h3 {
 
 .about .card {
     backdrop-filter: blur(10px);
-    border: 2px solid white;
-    box-shadow:  inset 0 0 100px 100px rgba(249, 245, 245, 0.623), 0 0 18px 3px rgb(0 0 0 / 30%);;
+    border: 2px solid transparent;
+    box-shadow:  inset 0 0 100px 500px rgba(249, 245, 245, 0.623), 0 0 10px 10px rgb(0 0 0 / 30%);
     display: flex;
-    border: 1px solid;
     padding: 20px;
     width: 700px;
     font-size: medium;
-    border-radius: 5px;
+    border-radius: 20px;
     justify-content: center;
 }
 
@@ -236,15 +235,15 @@ main div:last-of-type div h3 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    text-align: justify;
     transition: 0.3s ease-in-out;
+    text-align: justify;
     padding: 20px 30px;
     height: 200px;
 }
 
 .goal:hover {
     backdrop-filter: blur(20px);
-    box-shadow: inset 0 0 15px rgb(249 245 245 / 50%), 0 0 18px 3px rgb(10 10 10 / 30%);
+    box-shadow: inset 0 0 50px 100px rgb(249 245 245 / 30%), 0 0 18px 3px rgb(10 10 10 / 30%);
 }
 
 .goal:hover img {
@@ -268,7 +267,6 @@ main div:last-of-type div h3 {
 }
 
 .goal p {
-    transition: 0.3s ease-in-out;
     display: none;
     color: white;
 }
