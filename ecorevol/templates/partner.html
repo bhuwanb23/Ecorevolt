@@ -1,67 +1,141 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>Partnership</title>
     <link rel="stylesheet" href="{% static 'index.css' %}">
-    <link rel="stylesheet" href="{% static 'poda.css' %}" />
-  </head>
+    <link rel="stylesheet" href="{% static 'partner.css' %}" />
+</head>
 
-  <body>
+<body>
     <header>
-      <h1>EcoRevolt</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="{% url 'home' %}">Home</a>
-          </li>
-          <li>
-            <a href="{% url 'projects' %}">Projects</a>
-          </li>
-          <li>
-            <a href="{% url 'partner' %}">Collaborative</a>
-          </li>
-          <li>
-            <a href="{% url 'login' %}">Login</a>
-          </li>
-        </ul>
-      </nav>
+        <h1>EcoRevolt</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="{% url 'home' %}">Home</a>
+                </li>
+                <li>
+                    <a href="{% url 'projects' %}">Projects</a>
+                </li>
+                <li>
+                    <a href="{% url 'partner' %}">Collaborative</a>
+                </li>
+                <li>
+                    <a href="{% url 'login' %}">Login</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <div class="title" style="margin: 20px; padding: 20px;">
-      <h2>Partners and Collaborations</h2>
+    <div class="title">
+        <h2>Partners and Collaborations</h2>
+        <div class="Card">
+            <div class="CardInner">
+                <div class="container">
+                    <div class="Icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="#657789" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-search">
+                            <circle cx="11" cy="11" r="8" />
+                            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                        </svg>
+                    </div>
+                    <div class="InputContainer">
+                        <input placeholder="Search for parnters " />
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="slider">
-      <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav" />
-      <input type="radio" name="slider" title="slide2" class="slider__nav" />
-      <input type="radio" name="slider" title="slide3" class="slider__nav" />
-      <input type="radio" name="slider" title="slide4" class="slider__nav" />
-      <div class="slider__inner">
-        <div class="slider__contents">
-          <img src = "{% static 'f.jpg' %}" height="250" width="" class="photo" />
-          <h2 class="slider__caption">Priya Patel</h2>
-          <p class="slider__txt">Priya Patel, the stalwart in business advisory, orchestrates financial landscapes with finesse, Her adept guidance weaves through intricate accounts, sculpting pathways to success. With an analytical mind and a knack for innovation, she refines business models with precision.</p>
-          <button class="available1">Available</button>
+
+    <section class="partner-list">
+        <div class="partner-card">
+            <div class="profile-img"></div>
+            <h2 class="name">Morgan Stanley</h2>
+            <div class="picons">
+                <div class="icons"></div>
+                <div class="icons"></div>
+                <div class="icons"></div>
+            </div>
+            <div class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error, nam sint dolor et magni at
+                reiciendis quibusdam obcaecati sit.
+            </div>
+            <button>Partner</button>
         </div>
-        <div class="slider__contents">
-          <img src="./male 2.jpeg" height="400px" width="" class="photo" />
-          <h2 class="slider__caption">Arjun Sharma</h2>
-          <p class="slider__txt">Arjun Sharma, the esteemed finance head, steers economic projects with finesse and insight, With a wealth of experience and a sharp financial acumen, he navigates complexities with ease. His strategic vision and meticulous approach ensure financial stability and growth.</p>
-          <button class="available2">Available</button>
+        <div class="partner-card">
+            <div class="profile-img"></div>
+            <h2 class="name">Morgan Stanley</h2>
+            <div class="picons">
+                <div class="icons"></div>
+                <div class="icons"></div>
+                <div class="icons"></div>
+            </div>
+            <div class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error, nam sint dolor et magni at
+                reiciendis quibusdam obcaecati sit.
+            </div>
+            <button>Partner</button>
         </div>
-        <div class="slider__contents">
-          <img src="./female 4.jpeg" height="400px" width="" class="photo" />
-          <h2 class="slider__caption">Nandhini Desai</h2>
-          <p class="slider__txt">Nandhini Desai, a versatile expert in finance and business models, calculates Return on Investment with precision, With a keen understanding of financial metrics, she navigates projects towards profitability. Her strategic insights bridge the gap between finance and business strategy.</p>
-          <button class="available3">Available</button>
+        <div class="partner-card">
+            <div class="profile-img"></div>
+            <h2 class="name">Morgan Stanley</h2>
+            <div class="picons">
+                <div class="icons"></div>
+                <div class="icons"></div>
+                <div class="icons"></div>
+            </div>
+            <div class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error, nam sint dolor et magni at
+                reiciendis quibusdam obcaecati sit.
+            </div>
+            <button>Partner</button>
         </div>
-        <div class="slider__contents">
-          <img src="./male 3.jpg" height="400px" width="" class="photo" />
-          <h2 class="slider__caption">Vikram Desai</h2>
-          <p class="slider__txt">Vikram Desai, a trailblazer in crafting innovative business models, pioneers change in every social impact endeavor, With a visionary approach and a passion for social good, he redefines success beyond profit margins. His knack for creativity and adaptability breathe life into novel frameworks.</p>
-          <button class="available4">Available</button>
+        <div class="partner-card">
+            <div class="profile-img"></div>
+            <h2 class="name">Morgan Stanley</h2>
+            <div class="picons">
+                <div class="icons"></div>
+                <div class="icons"></div>
+                <div class="icons"></div>
+            </div>
+            <div class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error, nam sint dolor et magni at
+                reiciendis quibusdam obcaecati sit.
+            </div>
+            <button>Partner</button>
         </div>
-      </div>
-    </div>
-    <script src="script.js"></script>
-  </body>
+        <div class="partner-card">
+            <div class="profile-img"></div>
+            <h2 class="name">Morgan Stanley</h2>
+            <div class="picons">
+                <div class="icons"></div>
+                <div class="icons"></div>
+                <div class="icons"></div>
+            </div>
+            <div class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error, nam sint dolor et magni at
+                reiciendis quibusdam obcaecati sit.
+            </div>
+            <button>Partner</button>
+        </div>
+        <div class="partner-card">
+            <div class="profile-img"></div>
+            <h2 class="name">Morgan Stanley</h2>
+            <div class="picons">
+                <div class="icons"></div>
+                <div class="icons"></div>
+                <div class="icons"></div>
+            </div>
+            <div class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error, nam sint dolor et magni at
+                reiciendis quibusdam obcaecati sit.
+            </div>
+            <button>Partner</button>
+        </div>
+    </section>
+
+</body>
+
 </html>
