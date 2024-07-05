@@ -108,7 +108,8 @@ input:focus {
 .InputContainer:after {
     box-shadow: var(--top-shadow);
 }
-.partner-list{
+
+.partner-list {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -137,11 +138,13 @@ input:focus {
     border-radius: 50%;
     box-shadow: 0px 0px 5px black;
 }
-.name{
+
+.name {
     font-size: 18px;
     font-family: "Orbitron", sans-serif;
 
 }
+
 .picons {
     display: flex;
     justify-content: space-evenly;
@@ -179,7 +182,7 @@ input:focus {
     cursor: pointer;
 }
 
-.partner-card button:hover{
+.partner-card button:hover {
     background-color: white;
     color: #55ff2b;
     border: 2px solid #55ff2b;
