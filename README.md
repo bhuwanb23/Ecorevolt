@@ -99,3 +99,45 @@ Before you begin, ensure you have the following installed:
 - If you encounter issues, make sure all dependencies are installed correctly.
 - Check if the virtual environment is activated when running commands.
 - Review the project's documentation or raise an issue on GitHub for additional support.
+
+## Working of EcoRevolt Project 🌍💡
+
+EcoRevolt is a transformative platform designed to connect passionate social project owners with visionary investors, all dedicated to fostering sustainable change.
+
+### Key Components:
+
+### 1. **Project Discovery 🌱**
+- **Entrepreneurs** showcase innovative social and environmental projects.
+- **Investors** explore a diverse range of initiatives promoting green activities and sustainability.
+
+### 2. **Funding Support 💸**
+- **Investors** provide financial backing to selected projects.
+- **Funds** allocated to initiatives fostering environmental stewardship and social responsibility.
+
+### 3. **Mentorship and Guidance 🤝**
+- **Mentors** assist in selecting viable projects.
+- **Guidance** ensures projects align with sustainability goals and business viability.
+
+### 4. **Building Sustainable Companies 📈**
+- **Project Owners** develop sustainable businesses.
+- **Impact** on communities and ecosystems through eco-friendly practices.
+
+### 5. **Community Engagement 🌟**
+- **Collaboration** among stakeholders to drive impactful change.
+- **Network** of change-makers committed to environmental and social well-being.
+
+### Workflow:
+
+1. **Project Submission**: Entrepreneurs submit detailed proposals outlining project goals, environmental impact, and funding requirements.
+
+2. **Investment Selection**: Investors review proposals, select projects aligned with their interests and sustainability criteria.
+
+3. **Funding and Development**: Financial backing is provided to approved projects, enabling entrepreneurs to initiate and expand initiatives.
+
+4. **Mentorship**: Experienced mentors offer strategic guidance, ensuring project alignment with sustainability standards and business success.
+
+5. **Impact Assessment**: Ongoing evaluation measures environmental and social impact, fostering continuous improvement and transparency.
+
+### Join EcoRevolt Today!
+
+Transform ideas into impactful ventures. Together, let’s empower communities, preserve our planet, and build a sustainable future with EcoRevolt.
