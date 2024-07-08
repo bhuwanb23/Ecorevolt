@@ -138,3 +138,21 @@ EcoRevolt is a transformative platform designed to connect passionate social pro
 
 5. **Impact Assessment**: Ongoing evaluation measures environmental and social impact, fostering continuous improvement and transparency.
 
+### Authors and Acknowledgements
+
+#### Authors
+
+- **Bhuwan B**: Lead developer and project manager.
+- **Kaushiq S**: Lead developer and Database Manager.
+- **Avinash A**: Frontend Developer and UI/UX Designer.
+- **Anirudh S**: Coordinator and Research Support.
+
+#### Acknowledgements
+
+We would like to acknowledge the following individuals and organizations for their contributions and support:
+
+- **Harharasudhan S**: Provided valuable insights and feedback.
+- **Mukesh V and Kabelan G**: Assisted with testing and bug reporting.
+
+
+Adjust the names and roles based on your project's specific contributors and supporters.
