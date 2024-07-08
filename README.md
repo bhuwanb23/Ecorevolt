@@ -138,6 +138,3 @@ EcoRevolt is a transformative platform designed to connect passionate social pro
 
 5. **Impact Assessment**: Ongoing evaluation measures environmental and social impact, fostering continuous improvement and transparency.
 
-### Join EcoRevolt Today!
-
-Transform ideas into impactful ventures. Together, let’s empower communities, preserve our planet, and build a sustainable future with EcoRevolt.
