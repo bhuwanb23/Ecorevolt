@@ -162,6 +162,3 @@ We would like to acknowledge the following individuals and organizations for the
 
 - **Harharasudhan S**: Provided valuable insights and feedback.
 - **Mukesh V and Kabelan G**: Assisted with testing and bug reporting.
-
-
-Adjust the names and roles based on your project's specific contributors and supporters.
