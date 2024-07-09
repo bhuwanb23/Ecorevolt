@@ -4,9 +4,8 @@ Welcome to EcoRevolt, the ultimate platform revolutionizing social responsibilit
 
 ![Screenshot_9-7-2024_91836_127 0 0 1](https://github.com/bhuwanb23/Ecorevolt/assets/143519948/e9f4f95b-8453-45fd-9857-240bdb86fb4d)
 
-
 ## Why Choose EcoRevolt?
-
+  
 - 🌍 **Championing Green Activities**
 - 💡 **Connecting Visionaries with Investors**
 - 📈 **Building Sustainable Companies**
@@ -107,8 +106,6 @@ Before you begin, ensure you have the following installed:
 
 ### Home Page
 ![Screenshot_9-7-2024_91836_127 0 0 1](https://github.com/bhuwanb23/Ecorevolt/assets/143519948/e9f4f95b-8453-45fd-9857-240bdb86fb4d)
-
-![Screenshot_9-7-2024_92515_127 0 0 1](https://github.com/bhuwanb23/Ecorevolt/assets/143519948/19524460-4deb-49c0-82dd-90c7540c74d4)
 
 ![Screenshot_9-7-2024_91928_127 0 0 1](https://github.com/bhuwanb23/Ecorevolt/assets/143519948/512b3b07-4cbf-41bc-84dc-03bdc820d344)
 
