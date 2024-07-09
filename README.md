@@ -2,8 +2,10 @@
 
 Welcome to EcoRevolt, the ultimate platform revolutionizing social responsibility and environmental stewardship! Our app is designed to bridge the gap between visionary investors and passionate social project owners who are dedicated to making a difference. At EcoRevolt, we believe in the power of collaboration to create a sustainable and eco-friendly future.
 
-## Why Choose EcoRevolt?
+![Screenshot_9-7-2024_91836_127 0 0 1](https://github.com/bhuwanb23/Ecorevolt/assets/143519948/e9f4f95b-8453-45fd-9857-240bdb86fb4d)
 
+## Why Choose EcoRevolt?
+  
 - 🌍 **Championing Green Activities**
 - 💡 **Connecting Visionaries with Investors**
 - 📈 **Building Sustainable Companies**
@@ -100,6 +102,13 @@ Before you begin, ensure you have the following installed:
 - Check if the virtual environment is activated when running commands.
 - Review the project's documentation or raise an issue on GitHub for additional support.
 
+## Images of software
+
+### Home Page
+![Screenshot_9-7-2024_91836_127 0 0 1](https://github.com/bhuwanb23/Ecorevolt/assets/143519948/e9f4f95b-8453-45fd-9857-240bdb86fb4d)
+
+![Screenshot_9-7-2024_91928_127 0 0 1](https://github.com/bhuwanb23/Ecorevolt/assets/143519948/512b3b07-4cbf-41bc-84dc-03bdc820d344)
+
 ## Working of EcoRevolt Project 🌍💡
 
 EcoRevolt is a transformative platform designed to connect passionate social project owners with visionary investors, all dedicated to fostering sustainable change.
@@ -153,6 +162,3 @@ We would like to acknowledge the following individuals and organizations for the
 
 - **Harharasudhan S**: Provided valuable insights and feedback.
 - **Mukesh V and Kabelan G**: Assisted with testing and bug reporting.
-
-
-Adjust the names and roles based on your project's specific contributors and supporters.
