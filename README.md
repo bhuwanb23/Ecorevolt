@@ -2,6 +2,8 @@
 
 Welcome to EcoRevolt, the ultimate platform revolutionizing social responsibility and environmental stewardship! Our app is designed to bridge the gap between visionary investors and passionate social project owners who are dedicated to making a difference. At EcoRevolt, we believe in the power of collaboration to create a sustainable and eco-friendly future.
 
+Yet Ecorevolt is not fully completed, It is under development and implementaion. The Docs are up to dated. The User guide, Developer guide and Project Documentation consists of the basic project information and updated project information.
+
 ![Screenshot_9-7-2024_91836_127 0 0 1](https://github.com/bhuwanb23/Ecorevolt/assets/143519948/e9f4f95b-8453-45fd-9857-240bdb86fb4d)
 
 ## Why Choose EcoRevolt?
