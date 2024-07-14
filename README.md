@@ -110,6 +110,15 @@ Before you begin, ensure you have the following installed:
 ### Login Page
 ![Screenshot_9-7-2024_91928_127 0 0 1](https://github.com/bhuwanb23/Ecorevolt/assets/143519948/512b3b07-4cbf-41bc-84dc-03bdc820d344)
 
+### Contributors Page
+![Screenshot_14-7-2024_115240_127 0 0 1](https://github.com/user-attachments/assets/f484707a-632d-41b7-a96f-e624356df10e)
+
+### Sign Up Page
+![Screenshot_14-7-2024_115317_127 0 0 1](https://github.com/user-attachments/assets/d573b1bf-7648-4404-b316-02f803f1e345)
+
+### About Us
+![Screenshot_14-7-2024_115417_127 0 0 1](https://github.com/user-attachments/assets/67d83c59-0a6e-40c4-b19d-cbd4d1a88701)
+
 ## Working of EcoRevolt Project 🌍💡
 
 EcoRevolt is a transformative platform designed to connect passionate social project owners with visionary investors, all dedicated to fostering sustainable change.
