@@ -12,7 +12,7 @@ Welcome to EcoRevolt, the ultimate platform revolutionizing social responsibilit
 - 🤝 **Mentorship and Guidance**
 - 🌟 **Join the EcoRevolt Movement**
 
-### Key Features of EcoRevolt
+## Key Features of EcoRevolt
 
 - 🌍 **Championing Green Activities**
 - 💡 **Connecting Visionaries with Investors**
@@ -107,6 +107,7 @@ Before you begin, ensure you have the following installed:
 ### Home Page
 ![Screenshot_9-7-2024_91836_127 0 0 1](https://github.com/bhuwanb23/Ecorevolt/assets/143519948/e9f4f95b-8453-45fd-9857-240bdb86fb4d)
 
+### Login Page
 ![Screenshot_9-7-2024_91928_127 0 0 1](https://github.com/bhuwanb23/Ecorevolt/assets/143519948/512b3b07-4cbf-41bc-84dc-03bdc820d344)
 
 ## Working of EcoRevolt Project 🌍💡
